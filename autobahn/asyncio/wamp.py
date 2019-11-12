@@ -227,9 +227,9 @@ class ApplicationRunner(object):
                                                  openHandshakeTimeout=2.5,
                                                  closeHandshakeTimeout=1.,
                                                  tcpNoDelay=True,
-                                                 autoPingInterval=10.,
-                                                 autoPingTimeout=5.,
-                                                 autoPingSize=4,
+                                                 autoPingInterval=None,
+                                                 autoPingTimeout=None,
+                                                 autoPingSize=None,
                                                  perMessageCompressionOffers=offers,
                                                  perMessageCompressionAccept=accept)
         # SSL context for client connection
